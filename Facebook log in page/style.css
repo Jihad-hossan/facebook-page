@@ -1,0 +1,76 @@
+body  {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+.page  {
+       margin-top: 100px;
+       display: flex;
+        
+}
+.facebook   {
+           text-align: center;
+           padding: 20px;
+           margin-top: 100px;
+           flex: 50%;
+}
+img  {
+ 
+ height: 100px;
+}
+h3   {
+     
+     padding-bottom: 40px;
+     margin: 0;
+     font-size: 1.5rem;
+     font-family: Helvetica, Arial, sans-serif;
+     font-weight: 100;
+}
+.log-in-form   {
+              background-color: #ffffff;
+              flex: 50%;
+             
+            
+              margin: 20px;
+              border-radius: 10px;
+              box-shadow: .1px .1px .1px .8px #d4dce7;
+              text-align: center;
+}
+
+.log-in-form div  {
+              padding: 15px 0;
+              
+            
+              
+}
+input, button   {
+      padding: 15px 5px;
+      font-size: 15px;
+      border-radius: 5px;
+      width: 90%;
+      border: .2px solid #d4dce7;
+      font-weight: 600;
+
+}
+.create-account  {
+      width: 180px;
+      background-color: #42b72a;
+      color: white;
+      font-size: 16px;
+      margin-bottom: 25px;
+      margin-top: 15px;
+      font-weight: 600;
+}
+.forgotten  {
+      text-decoration: none;
+      font-weight: 100;
+      color: #1877f2;
+      font-size: 15px;
+      letter-spacing: .1px;
+      font-family: Helvetica, Arial, sans-serif;
+}
+.down-text  {
+      text-align: center;
+      font-family:  Helvetica, Arial, sans-serif;
+      font-size: .95rem;
+}
